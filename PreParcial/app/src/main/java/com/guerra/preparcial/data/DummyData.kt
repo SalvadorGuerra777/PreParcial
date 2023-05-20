@@ -15,7 +15,7 @@ const val type2 = "Electric"
 const val description2 = "Un pokemon bien genial."
 const val force2 = "25"
 
-var fighters = mutableListOf(
+var dragons = mutableListOf(
     DragonModel(name, type, description, force),
     DragonModel(name2, type, description2, force2),
 )
