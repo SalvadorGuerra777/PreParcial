@@ -11,13 +11,13 @@
     </data>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/card_view_pokemon"
+        android:id="@+id/card_view_dragon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/normal_gap"
         app:cardBackgroundColor="@color/cardview_light_background"
         app:cardCornerRadius="@dimen/gap"
-        tools:context=".ui.poke.pokeboard.recyclerview.PokemonItemFragment">
+        tools:context=".ui.dragonball.dragonboard.recyclerview.DragonItemFragment">
 
 
         <LinearLayout
@@ -59,7 +59,7 @@
                     tools:text="@string/primer_peleador" />
 
                 <TextView
-                    android:id="@+id/text_view_noPokedex"
+                    android:id="@+id/text_view_force"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/cardview_shadow_end_color"

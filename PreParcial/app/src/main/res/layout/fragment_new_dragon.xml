@@ -11,11 +11,11 @@
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/card_pokemon"
+        android:id="@+id/card_dragon"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/cardview_dark_background"
-        tools:context=".ui.poke.new_dragon.NewDragonFragment">
+        tools:context=".ui.dragonball.new_dragon.NewDragonFragment">
 
         <TextView
             android:id="@+id/textView2"
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/large_gap"
             android:gravity="center"
-            android:text="Agregarpokemon"
+            android:text="Agregar Peleador"
             android:textColor="@color/cardview_light_background"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"

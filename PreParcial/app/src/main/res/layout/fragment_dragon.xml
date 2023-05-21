@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/design_default_color_error"
-        tools:context=".ui.poke.PokemonFragment">
+        tools:context=".ui.poke.DragonFragment">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/imageView3"

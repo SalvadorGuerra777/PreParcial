@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/cardview_dark_background"
-        tools:context=".ui.poke.pokeboard.PokeBoardFragment">
+        tools:context=".ui.dragonball.dragonboard.DragonBoardFragment">
 
         <TextView
             android:id="@+id/textView2"
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/normal_gap"
             android:gravity="center"
-            android:text="Pokemon tittle"
+            android:text="Fighter tittle"
             android:textColor="@color/design_default_color_on_secondary"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btn_link_new_pokemon"
+            android:id="@+id/btn_link_new_dragon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
@@ -45,7 +45,7 @@
             app:srcCompat="@drawable/plus" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/pokemons_recycle_view"
+            android:id="@+id/dragons_recycle_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/normal_gap"

@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dragonBoardFragment">
 
+    <fragment
+        android:id="@+id/dragonFragment"
+        android:name="com.guerra.preparcial.ui.dragonball.DragonFragment"
+        android:label="fragment_pokemon"
+        tools:layout="@layout/fragment_dragon" />
+    <fragment
+        android:id="@+id/newDragonFragment"
+        android:name="com.guerra.preparcial.ui.dragonball.new_dragon.NewDragonFragment"
+        android:label="fragment_new_pokemon"
+        tools:layout="@layout/fragment_new_dragon" >
+        <action
+            android:id="@+id/action_newDragonFragment_to_dragonBoardFragment"
+            app:destination="@id/dragonBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dragonBoardFragment"
+        android:name="com.guerra.preparcial.ui.dragonball.dragon_board.DragonBoardFragment"
+        android:label="fragment_poke_board"
+        tools:layout="@layout/fragment_dragon_board" >
+        <action
+            android:id="@+id/action_dragonBoardFragment_to_newDragonFragment"
+            app:destination="@id/newDragonFragment" />
+        <action
+            android:id="@+id/action_dragonBoardFragment_to_dragonFragment"
+            app:destination="@id/dragonFragment" />
+    </fragment>
 </navigation>
