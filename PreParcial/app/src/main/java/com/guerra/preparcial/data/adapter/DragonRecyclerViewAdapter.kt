@@ -12,14 +12,14 @@ import java.util.ArrayList
 class DragonRecylcerViewAdapter(
     private val clickListener: (DragonModel)-> Unit
 ): RecyclerView.Adapter<DragonRecyclerViewHolder>() {
-    private val pokemons = ArrayList<DragonModel>()
+    private val dragons = ArrayList<DragonModel>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DragonRecyclerViewHolder {
         val binding = FragmentDragonItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return DragonRecyclerViewHolder(binding)
     }
 
-    override fun getItemCount()= pokemons.size
+    override fun getItemCount()= dragons.size
 
     override fun onBindViewHolder(holder: DragonRecyclerViewHolder, position: Int) {
         val dragon = dragons[position]

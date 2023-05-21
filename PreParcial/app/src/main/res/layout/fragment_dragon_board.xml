@@ -39,7 +39,7 @@
             android:layout_marginEnd="@dimen/extra_gap"
             android:layout_marginBottom="@dimen/normal_gap"
             android:contentDescription="add button"
-            app:backgroundTint="@color/material_on_surface_disabled"
+            app:backgroundTint="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:srcCompat="@drawable/plus" />
@@ -53,12 +53,12 @@
             android:layout_marginEnd="@dimen/normal_gap"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
             tools:itemCount="5"
-            tools:listitem="@layout/fragment_dragon_item"
 
-            />
+            tools:listitem="@layout/fragment_dragon_item" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

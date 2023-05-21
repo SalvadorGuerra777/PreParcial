@@ -8,12 +8,12 @@
     <fragment
         android:id="@+id/dragonFragment"
         android:name="com.guerra.preparcial.ui.dragonball.DragonFragment"
-        android:label="fragment_pokemon"
+        android:label="fragment_dragon"
         tools:layout="@layout/fragment_dragon" />
     <fragment
         android:id="@+id/newDragonFragment"
         android:name="com.guerra.preparcial.ui.dragonball.new_dragon.NewDragonFragment"
-        android:label="fragment_new_pokemon"
+        android:label="fragment_new_dragon"
         tools:layout="@layout/fragment_new_dragon" >
         <action
             android:id="@+id/action_newDragonFragment_to_dragonBoardFragment"
@@ -22,7 +22,7 @@
     <fragment
         android:id="@+id/dragonBoardFragment"
         android:name="com.guerra.preparcial.ui.dragonball.dragon_board.DragonBoardFragment"
-        android:label="fragment_poke_board"
+        android:label="fragment_dragon_board"
         tools:layout="@layout/fragment_dragon_board" >
         <action
             android:id="@+id/action_dragonBoardFragment_to_newDragonFragment"

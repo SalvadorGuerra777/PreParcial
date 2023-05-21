@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/design_default_color_error"
-        tools:context=".ui.poke.DragonFragment">
+        tools:context=".ui.dragonball.DragonFragment">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/imageView3"
@@ -26,7 +26,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:cardCornerRadius="@dimen/extra_gap">
+            app:cardCornerRadius="100dp">
 
             <ImageView
                 android:id="@+id/image"
@@ -59,7 +59,7 @@
                 tools:text="BULBASUR"
                 android:text="@{viewmodel.name}"
                 android:textColor="@color/material_dynamic_secondary10"
-                android:textSize="@dimen/m_text_size"
+                android:textSize="25dp"
                 android:textStyle="bold" />
 
             <LinearLayout
