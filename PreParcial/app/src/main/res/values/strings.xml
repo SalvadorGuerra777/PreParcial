@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PreParcial</string>
+    <string name="primer_peleador">Primer Peleador</string>
+    <string name="esta_rotisimo">esta Rotisimo</string>
 </resources>

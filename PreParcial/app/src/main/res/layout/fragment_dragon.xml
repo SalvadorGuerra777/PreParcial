@@ -7,7 +7,7 @@
 
         <variable
             name="viewmodel"
-            type="com.example.parcialpokemon2.ui.poke.viewmodel.PokemonViewModel" />
+            type="com.guerra.preparcial.ui.dragonball.viewmodel.DragonViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -86,7 +86,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     tools:text="XD"
-                    android:text="@{viewmodel.noPokedex}"
+                    android:text="@{viewmodel.force}"
                     android:textColor="@color/material_dynamic_secondary10"
                     android:textSize="@dimen/xlg_text_size" />
             </LinearLayout>
